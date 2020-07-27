@@ -30,9 +30,9 @@ end
 
 def run(songs)
   user_response = ''
-  puts "Please enter a command:"
-  user_response = gets.strip
   until user_response == 'exit' do
+    puts "Please enter a command:"
+    user_response = gets.strip
     case user_response
     when 'help'
       help
